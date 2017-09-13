@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../styles/App.css';
+import moment from 'moment';
 
-class App extends Component {
+export default class EarthquakeList extends Component {
   render() {
     return (
       <div className="App">
@@ -9,12 +9,10 @@ class App extends Component {
           <div className="my-header">
           "Earthquakes!"
           </div>
-          <EarthquakeInfo />
-          <EarthquakeList />
         </div>
       </div>
     );
   }
 }
 
-export default App;
+export default EarthquakeList;
