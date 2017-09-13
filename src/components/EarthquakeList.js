@@ -14,5 +14,3 @@ export default class EarthquakeList extends Component {
     );
   }
 }
-
-export default EarthquakeList;

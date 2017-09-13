@@ -9,5 +9,3 @@ export default class EarthquakeInfo extends Component {
     );
   }
 }
-
-export default EarthquakeInfo;
