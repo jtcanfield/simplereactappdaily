@@ -4,7 +4,7 @@ export default class EarthquakeInfoLive extends Component {
   render() {
     return (
       <div className="earthquake-title">
-      "This is a list of 8 Earthquakes occurring on the morning of July 14th across the United States."
+      "This is a list of the most recent earthquakes in the past Hour."
       </div>
     );
   }
